@@ -1,0 +1,14 @@
+{
+  "name": "JavaScript Exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "author": "Farhad Ahmadi",
+  "license": "GNU GENERAL PUBLIC LICENSE Version 3"
+}
