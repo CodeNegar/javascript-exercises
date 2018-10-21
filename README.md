@@ -1,6 +1,6 @@
 # JavaScript Exercises
 
-Built using Node.js and Jest.js test framework.
+Algorithms and data structures using Node.js and Jest.js test framework.
 
 List of exercises and tests are cloned from: https://github.com/StephenGrider/algocasts
 
