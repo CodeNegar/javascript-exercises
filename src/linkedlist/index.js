@@ -32,8 +32,22 @@ class LinkedList {
     return counter;
   }
 
-  getFirst(){
+  getFirst() {
     return this.head;
+  }
+
+  getLast() {
+    let node = this.head;
+
+    while (node != null && node.next != null) {
+      node = node.next;
+    }
+
+    return node;
+  }
+
+  clear() {
+    this.head = null;
   }
 }
 

@@ -49,3 +49,27 @@ describe('GetFirst', () => {
     expect(l.getFirst().data).toEqual(2);
   });
 });
+
+describe('GetLast', () => {
+  test('returns the last element', () => {
+    const l = new List();
+    l.insertFirst(2);
+    expect(l.getLast()).toEqual({ data: 2, next: null });
+    l.insertFirst(1);
+    expect(l.getLast()).toEqual({ data: 2, next: null });
+  });
+});
+
+describe('Clear', () => {
+  test('empties out the list', () => {
+    const l = new List();
+    expect(l.size()).toEqual(0);
+    l.insertFirst(1);
+    l.insertFirst(1);
+    l.insertFirst(1);
+    l.insertFirst(1);
+    expect(l.size()).toEqual(4);
+    l.clear();
+    expect(l.size()).toEqual(0);
+  });
+});
